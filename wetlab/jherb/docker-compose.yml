@@ -13,7 +13,7 @@ services:
         - TAG=${TAG}
         - R_VER=${R_VER}
     volumes:
-      - "/mnt/cho_lab/disk2:/disk2"
+      - "/mnt/data0/cholab:/data0"
       - "${USER_NAME}:/projects"
     tty: true
     restart: always
