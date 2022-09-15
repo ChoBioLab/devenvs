@@ -13,11 +13,12 @@ services:
         - TAG=${TAG}
         - R_VER=${R_VER}
     volumes:
-      - "/mnt/data0/cholab:/data0"
-      - "${USER_NAME}:/projects"
+      - "/mnt/data0/cholab/${USER_NAME}:/data0"
+      - "projects:/projects"
     tty: true
     restart: always
 
 volumes:
-  hhan:
+  projects:
     external: true
+    name: ${USER_NAME}
