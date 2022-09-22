@@ -12,9 +12,11 @@ services:
       args:
         - TAG=${TAG}
         - R_VER=${R_VER}
+        - USER_NAME=${USER_NAME}
     volumes:
       - "/mnt/data0/cholab/${USER_NAME}:/data0"
       - "projects:/projects"
+      - "extensions:/root/.vscode-server/extensions"
     tty: true
     restart: always
 
@@ -22,3 +24,7 @@ volumes:
   projects:
     external: true
     name: ${USER_NAME}
+  extensions:
+    external: false
+    name: ${USER_NAME}-vsc-extensions
+
