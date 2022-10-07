@@ -1,0 +1,12 @@
+Imports:
+    Signac,
+    GenomeInfoDb,
+    GenomicRanges,
+    Rsamtools,
+    EnhancedVolcano
+
+Remotes:
+    bioc::GenomeInfoDb,
+    bioc::GenomicRanges,
+    bioc::Rsamtools,
+    bioc::EnhancedVolcano
