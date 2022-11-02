@@ -1,5 +1,6 @@
 Imports:
-    viridis
+    viridis,
+    DT
 
 Remotes:
 
