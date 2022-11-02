@@ -3,10 +3,15 @@ Imports:
     GenomeInfoDb,
     GenomicRanges,
     Rsamtools,
-    EnhancedVolcano
+    EnhancedVolcano,
+    BSgenome.Hsapiens.UCSC.hg38,
+    tidyseurat,
+    SCpubr,
+    viridis
 
 Remotes:
     bioc::GenomeInfoDb,
     bioc::GenomicRanges,
     bioc::Rsamtools,
-    bioc::EnhancedVolcano
+    bioc::EnhancedVolcano,
+    bioc::BSgenome.Hsapiens.UCSC.hg38
