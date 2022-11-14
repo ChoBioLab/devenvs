@@ -7,7 +7,11 @@ Imports:
     BSgenome.Hsapiens.UCSC.hg38,
     tidyseurat,
     SCpubr,
-    viridis
+    viridis,
+    ggseqlogo,
+    ggplotify,
+    ggrepel,
+    tibble
 
 Remotes:
     bioc::GenomeInfoDb,

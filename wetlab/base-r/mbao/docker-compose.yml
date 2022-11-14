@@ -23,7 +23,9 @@ services:
 
 volumes:
   projects:
+    external: true
     name: ${USER_NAME}
   extensions:
+    external: true
     name: ${USER_NAME}-vsc-extensions
 
