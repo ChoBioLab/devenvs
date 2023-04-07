@@ -1,7 +1,7 @@
 ARG TAG
 ARG R_VER
 
-FROM public.ecr.aws/chobiolab/r-dev:r--latest
+FROM public.ecr.aws/chobiolab/r-dev:"$TAG"
 
 WORKDIR /dep
 COPY DESCRIPTION DESCRIPTION
